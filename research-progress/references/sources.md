@@ -84,6 +84,29 @@ Sivaprasad et al., *Optimizer Benchmarking Needs to Account for Hyperparameter T
 采用：比较时考虑调参与优化预算，而不只最终最好分数。
 边界：本次未据全文抽取具体实现或声称某个优化器普适最优。
 
+## 主线、探索与透明变更的补充依据（0.2.0）
+
+### M8：OSF 官方注册指南
+
+[Welcome to Registrations](https://help.osf.io/article/330-welcome-to-registrations)。
+实读严谨预注册实践和更新注册的相关段落，涉及假设、变量、分析、判断标准和变更说明。
+采用：记录计划版本、已经接触的信息、重要变更及其理由。边界：本项目状态记录不自动等于正式注册；
+不强制所有学科公开预注册，也不认为统一模板适合所有设计。
+
+### M9：计划允许透明修订
+
+[COS：Preregistration—A Plan, Not a Prison](https://www.cos.io/blog/preregistration-plan-not-prison)，全文实读。
+采用：保留原计划，区分采集前、采集中和看结果后的修改，说明停止与追加依据；
+看结果后形成的分析不得伪装成原预测。边界：文章的具体平台操作来自较早流程，当前界面不据此推断；
+此原则不能证明某条路线有价值，也不禁止修正错误设计。
+
+### M10：确认、探索与条件分支
+
+[COS Registered Reports](https://www.cos.io/initiatives/registered-reports)，实读格式、适用范围、设计与探索 FAQ。
+采用：区分确认和探索，允许条件决策树、意外发现与迭代假设；需要确认时再取得合适的新证据。
+边界：Registered Reports 是特定出版格式，本 skill 不声称遵循这些工作记录就完成了该投稿流程。
+探索预算、主线活动分类及转向模板是本项目设计，没有经过通用有效性验证。
+
 ## 格式依据
 
 [OpenAI 官方 Build skills](https://developers.openai.com/plugins/build/skills)：SKILL.md 的名称/描述、
@@ -95,6 +118,7 @@ Sivaprasad et al., *Optimizer Benchmarking Needs to Account for Hyperparameter T
 - 六维诊断、优先级 Q0–Q3、继续/修正/收窄/转向/停止的决策分支。
 - 三路文献搜索和“缺口—机制—论文—迁移—修改—区分验证”建议链条。
 - 项目快照、报告字段、跨周期更新和行为演练案例。
+- 可修订的研究主线、活动关联检查、偏航信号、有界探索与透明转向记录；不宣称绝对保证。
 
 这些设计是依据上述资料形成的工作框架，尚未经过正式测量学验证或长期效果研究。
 “较强”“受控支持”等词是可解释的操作标签，不代表客观量化创新分数。

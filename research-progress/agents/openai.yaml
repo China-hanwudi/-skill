@@ -1,4 +1,4 @@
 interface:
-  display_name: "科研进度与创新审查"
-  short_description: "按研究进度审查创新点与证据，检索相关论文并给出可验证的补救和修改建议"
-  default_prompt: "使用 $research-progress 审查我当前项目的研究阶段、创新点和证据，检索最接近及可能反驳的论文，提出有依据的修改方案和下一步实验。"
+  display_name: "科研主线、进度与创新审查"
+  short_description: "核对科研主线与偏航风险，审查创新和证据，检索论文并提出可验证的修改"
+  default_prompt: "使用 $research-progress 核对我的科研主线、进度与创新证据，检索相关和反对论文，区分偏航风险、合理探索与证据驱动的转向，给出具体修改和下一步验证。"
